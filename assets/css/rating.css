@@ -1,0 +1,77 @@
+.c-star {
+    position: relative;
+    margin-right: 5px
+}
+
+.c-star,
+.c-stars {
+    display: inline-block
+}
+
+.c-stars {
+    font-size: 1.142857em
+}
+
+.c-stars--sm {
+    font-size: 1em
+}
+
+.c-stars--sm .c-star {
+    margin-right: 1px
+}
+
+.c-stars--qv.c-stars--sm {
+    font-size: .857142em
+}
+
+.c-stars--qv .c-star {
+    margin: 0 2px
+}
+
+.c-star--qv .icon {
+    padding-bottom: .15rem
+}
+
+.c-stars--lg {
+    font-size: 1.286em;
+    line-height: 2
+}
+
+.c-star__fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden
+}
+
+.c-stars--lg-acc {
+    line-height: 1
+}
+
+.c-star--gray:before {
+    color: var(--color-gray-1)
+}
+
+.c-prd-rating__count:before {
+    content: "("
+}
+
+.c-prd-rating__count:after {
+    content: ")"
+}
+
+.c-prd-rating__count--qv {
+    letter-spacing: 0
+}
+
+.c-prd-rating__count--qv:before {
+    padding-right: 3px
+}
+
+.c-prd-rating__count--qv:after {
+    padding-left: 3px
+}
+
+.sgv2 .c-prd-rating__count {
+    color: var(--color-gray-4)
+}
